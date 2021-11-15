@@ -3,24 +3,52 @@ body {
     font-family:Arial, Helvetica, sans-serif
 }
 
+.assignemts{
+    display:flex;
+    flex-wrap:wrap;
+}
+
 .assignment {
-  display:flex;
+  width:22%;
   padding:10px;
+  padding:20px 0;
   margin:10px;
   background:#7FFFD4;
+  border-radius:5px;
 }
 
 .assignment img{
     width:200px;
-    margin: 10px;
-    border: 4px solid #DDA0DD;
+    margin:10px;
+    border:4px solid #FFF;
+    display:block;
+    margin:auto;
+    
+}
+.assignment img:hover{
+    border: 4px solid#DDA0DD
 }
 
 h1{
     color:darkorchid;
     text-align:center;
 }
+
+h1:hover{
+    color:#DDA0DD
+   
+}
+
+h2 {
+    text-align:center;
+}
+
 a {
     text-decoration:none;
-    color:#DDA0DD;
+    color:#FFF;
+
+}
+
+a:hover{
+    color:#DDA0DD
 }
